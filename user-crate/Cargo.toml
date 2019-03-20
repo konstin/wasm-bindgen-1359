@@ -1,0 +1,12 @@
+[package]
+name = "user-crate"
+version = "0.1.0"
+authors = ["konstin <konstin@mailbox.org>"]
+edition = "2018"
+
+[dependencies]
+lib-frontend = { path = "../lib-frontend" }
+
+[patch.crates-io]
+wasm-bindgen-macro-support = { git = "https://github.com/konstin/wasm-bindgen", branch = "reexporting_in_2018" }
+wasm-bindgen-backend = { git = "https://github.com/konstin/wasm-bindgen", branch = "reexporting_in_2018" }

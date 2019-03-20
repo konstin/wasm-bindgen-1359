@@ -1,0 +1,12 @@
+[package]
+name = "lib-backend"
+version = "0.1.0"
+authors = ["konstin <konstin@mailbox.org>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+wasm-bindgen-macro-support = "0.2.39"
+proc-macro2 = "0.4.27"

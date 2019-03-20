@@ -1,0 +1,9 @@
+[package]
+name = "lib-frontend"
+version = "0.1.0"
+authors = ["konstin <konstin@mailbox.org>"]
+edition = "2018"
+
+[dependencies]
+wasm-bindgen = "0.2.39"
+lib-backend = { path = "../lib-backend" }
